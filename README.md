@@ -1,5 +1,22 @@
-Análise Completa de Veículos - Ferramenta de Consulta FIPE e Simulações
-Este projeto é uma aplicação web front-end, desenvolvida em um único arquivo HTML, que serve como uma central de análise de custos para veículos. A ferramenta permite que o usuário consulte o valor de um veículo na Tabela FIPE e, a partir desse dado, realize diversas simulações financeiras, como análise de compra em leilão, estimativa de seguro, cálculo de IPVA e uma projeção de custos totais para os próximos 4 anos.
+<p align="center">
+<!-- Substitua a URL abaixo por uma imagem ou GIF de demonstração da sua aplicação -->
+<img src="https://www.google.com/search?q=https://placehold.co/800x400/e2e8f0/334155%3Ftext%3DDemonstra%25C3%25A7%25C3%25A3o%2Bda%2BFerramenta" alt="Demonstração da Ferramenta" width="700"/>
+</p>
+
+<h1 align="center">Análise Completa de Veículos</h1>
+
+<p align="center">
+Uma ferramenta web completa para consulta da Tabela FIPE, análise de leilão, simulação de seguro, cálculo de IPVA e projeção de custos.
+</p>
+
+<p align="center">
+<img alt="HTML5" src="https://www.google.com/search?q=https://img.shields.io/badge/HTML5-E34F26%3Fstyle%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite"/>
+<img alt="Tailwind CSS" src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-38B2AC%3Fstyle%3Dfor-the-badge%26logo%3Dtailwind-css%26logoColor%3Dwhite"/>
+<img alt="JavaScript" src="https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack"/>
+</p>
+
+📖 Sobre o Projeto
+Este projeto é uma aplicação web front-end, desenvolvida em um único arquivo HTML, que serve como uma central de análise de custos para veículos. A ferramenta permite que o usuário consulte o valor de um veículo na Tabela FIPE e, a partir desse dado, realize diversas simulações financeiras para auxiliar na tomada de decisão de compra.
 
 ✨ Funcionalidades
 A aplicação é dividida em um fluxo intuitivo, começando pela consulta FIPE e se desdobrando em várias análises:
@@ -58,7 +75,13 @@ JavaScript (Vanilla): Manipulação do DOM, lógica das simulações e comunica�
 FIPE API: Os dados da Tabela FIPE são consumidos da API pública https://parallelum.com.br/fipe/api/v1.
 
 🚀 Como Utilizar
+Clone o repositório:
+
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
 Abra o arquivo index.html em qualquer navegador web moderno.
+
+O uso da aplicação é direto:
 
 Consulta Principal:
 
@@ -70,33 +93,24 @@ Faça o mesmo para Modelo e Ano.
 
 Análise dos Resultados:
 
-Após selecionar o ano, o valor FIPE será exibido, junto com a primeira aba, Análise de Leilão.
+Após selecionar o ano, o valor FIPE será exibido.
 
-Navegue entre as abas Simulador de Seguro, Simulador de IPVA e Projeção de Custos para realizar as demais análises.
+Navegue entre as abas para realizar as simulações desejadas.
 
 Para habilitar a Projeção de Custos, é necessário primeiro calcular um valor nas abas de Seguro e IPVA.
 
-Nova Consulta:
+🤝 Contribuição
+Contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será muito apreciada.
 
-Clique no botão "Fazer Nova Consulta" para limpar todos os campos e resultados e começar novamente.
+Faça um Fork do projeto
 
-📂 Estrutura do Código
-Todo o código está contido em um único arquivo HTML, organizado da seguinte forma:
+Crie uma Branch para sua modificação (git checkout -b feature/FuncionalidadeIncrivel)
 
-<head>: Inclui os metadados, a importação do Tailwind CSS via CDN, fontes do Google Fonts e estilos CSS customizados para animações e ajustes finos.
+Faça o Commit de suas mudanças (git commit -m 'Adiciona FuncionalidadeIncrivel')
 
-<body>: Contém toda a estrutura HTML da aplicação, dividida entre o formulário de consulta e os containers de resultados (que ficam ocultos inicialmente).
+Faça o Push da Branch (git push origin feature/FuncionalidadeIncrivel)
 
-<script>: Localizado no final do <body>, contém todo o código JavaScript responsável por:
+Abra um Pull Request
 
-Mapeamento de elementos do DOM.
-
-Lógica para as chamadas à API FIPE.
-
-Funções para popular, resetar e controlar os selects do formulário.
-
-Lógica de navegação e exibição das abas.
-
-Cálculos para todas as simulações.
-
-Manipulação do DOM para exibir os resultados dinamicamente.
+📝 Licença
+Distribuído sob a licença MIT. Veja o arquivo LICENSE para mais informações.
